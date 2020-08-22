@@ -1,1 +1,33 @@
-<p>quote-form works!</p>
+
+<div class="container bg-drk rounded">
+  <form class="text-center p-5" (ngSubmit)='submitQuote(quoteForm)' #quoteForm='ngForm'>
+
+    <p class="h4 mb-4">Write your quote here</p>
+  
+    <div class="form-group">
+      <input type="text" id="person"  required class="form-control mb-4" name="name" [(ngModel)]="newQuotes.name" id="name" #name='ngModel' placeholder="Name" required>
+      <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+        <p>name is required</p>
+        </div>
+    </div>
+    
+    <div class="form-group">
+      <input type="text" id="author" class="form-control mb-4" name="author" [(ngModel)]="newQuotes.author" id="author" #author='ngModel' placeholder="Author" required>
+      <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+        <p>author is required</p>
+        </div>
+    </div>
+    
+    <!-- Message -->
+    <div class="form-group">
+      <textarea  required class="form-control rounded-0" id="quote" rows="3" name="quote" [(ngModel)]="newQuotes.quote" id="quote" #quote='ngModel' placeholder="Write your quote" required></textarea>
+      <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
+        <p>quote is required</p>
+        </div>
+    </div>
+    <!-- Send button -->
+    <button class="my-4 btn btn-primary btn-lg" block="true"  type="submit">Upload Quote</button>
+  
+  </form>
+  <!-- Default form contact -->
+</div>

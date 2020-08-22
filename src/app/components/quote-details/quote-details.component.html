@@ -1,1 +1,9 @@
-<p>quote-details works!</p>
+<div class="row">
+    <div class="col-md-5">
+        <p class="text-center">{{quote.author}}</p>
+    </div>
+    <div class="col-md-5">
+        <p class="text-center">{{quote.name}}</p>
+    </div>
+</div>
+<button (click)= 'quoteDelete(true)' class="btn btn-danger btn-sm">Delete Quote</button>
