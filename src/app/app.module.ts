@@ -9,6 +9,7 @@ import { QuoteDetailsComponent } from './components/quote-details/quote-details.
 import { QuoteFormComponent } from './components/quote-form/quote-form.component';
 import { VotesComponent } from './components/votes/votes.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TimePipe } from './models/time.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     QuoteComponent,
     QuoteDetailsComponent,
     QuoteFormComponent,
-    VotesComponent
+    VotesComponent,
+    TimePipe
   ],
   imports: [
     BrowserModule,
