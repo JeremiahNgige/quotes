@@ -7,11 +7,11 @@ export class TimePipe implements PipeTransform {
 
   transform(value: any): number {
 
-    let time: Date = new Date();
+    let today: Date = new Date();
     let timeofTime: any = new Date(
-      time.getFullYear(),
-      time.getMonth(),
-      time.getDate(),
+      today.getFullYear(),
+      today.getMonth(),
+      today.getDate(),
     );
     
     var dayDiff = Math.abs(value - timeofTime)

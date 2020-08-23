@@ -10,7 +10,7 @@
     <div class="col-md-5">
         <button (click)= 'quoteDelete(true)' class="btn btn-danger btn-sm">Delete Quote</button>
     </div>
-    <div class="col-md-5 blue-text">
-    posted{{ quote.time }}
+    <div class="col-md-5 blue-text txt-bold">
+    posted{{ quote.time|date }}
     </div>
 </div>

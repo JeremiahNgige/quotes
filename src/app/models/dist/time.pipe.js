@@ -12,8 +12,8 @@ var TimePipe = /** @class */ (function () {
     function TimePipe() {
     }
     TimePipe.prototype.transform = function (value) {
-        var time = new Date();
-        var timeofTime = new Date(time.getFullYear(), time.getMonth(), time.getDate());
+        var today = new Date();
+        var timeofTime = new Date(today.getFullYear(), today.getMonth(), today.getDate());
         var dayDiff = Math.abs(value - timeofTime);
         var secInDay = 86400;
         var dayDiffSec = dayDiff * 0.001;
