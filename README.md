@@ -1,6 +1,11 @@
 # Quotes
 
+A web app to post quotes <br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+
+## Description
+
+This is a web app to upload quotes with the respective username and author's name. The Quotes can be up voted and down voted.
 
 ## Development server
 
