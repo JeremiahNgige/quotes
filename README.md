@@ -5,7 +5,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-This is a web app to upload quotes with the respective username and author's name. The Quotes can be up voted and down voted.
+**1).Upload A quote**  <br>
+    Upload a quote by filling the respective from inputs. <br>
+    The quotes will be displayed on the card labeled Quotes.<br>
+
+**2).Vote a quote** <br>
+    In the card hosting the quote there are two buttons ,one with a thumps up to upvote and another one with a thumbs down to down vote. Click on either for the respective voting and the number of votes will increase per click<br>
+    
+**3).Delete Quote** <br>
+    Press the button on the respective quote that says quote details.A delete quote button will drop down along other quote details.<br>   
+
 
 ## Development server
 
