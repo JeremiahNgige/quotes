@@ -11,7 +11,7 @@ var core_1 = require("@angular/core");
 var quotes_1 = require("src/app/models/quotes");
 var QuoteFormComponent = /** @class */ (function () {
     function QuoteFormComponent() {
-        this.newQuotes = new quotes_1.Quotes("", "", "");
+        this.newQuotes = new quotes_1.Quotes("", "", "", new Date());
         this.addQuote = new core_1.EventEmitter();
     }
     QuoteFormComponent.prototype.submitQuote = function (quoteForm) {

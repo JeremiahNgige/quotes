@@ -6,4 +6,11 @@
       <p class="text-center txt-bold">Name: {{quote.name}}</p>
     </div>
 </div>
-<button (click)= 'quoteDelete(true)' class="btn btn-danger btn-sm">Delete Quote</button>
+<div class="row">
+    <div class="col-md-5">
+        <button (click)= 'quoteDelete(true)' class="btn btn-danger btn-sm">Delete Quote</button>
+    </div>
+    <div class="col-md-5 blue-text">
+    posted{{ quote.time }}
+    </div>
+</div>
