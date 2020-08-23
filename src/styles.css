@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background:  url(./assets/imgs/waves.jpg) center center no-repeat;
+    background:  url(./assets/imgs/waves.jpg) center center fixed no-repeat;
     background-size: cover;
 }
 .inner{

@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row d-flex justify-content-end">
+        <div class="col-sm-5 d-flex justify-content-end">
+            <button (click)="upVotes()" class="btn btn-outline-success btn-sm waves-effect">
+                <fa-icon [icon]="like" class="green-text"></fa-icon>
+                {{upVote}}
+            </button>
+        </div>
+        <div class="col-sm-5 d-flex justify-content-end">
+            <button type="button" (click)="downVotes()" class="btn btn-outline-blue-grey btn-sm waves-effect">
+                <fa-icon [icon]="dislike" class="blue-grey-text"></fa-icon>
+                {{downVote}}
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+
+

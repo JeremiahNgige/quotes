@@ -20,7 +20,7 @@ var QuoteComponent = /** @class */ (function () {
     };
     QuoteComponent.prototype.deleteQuote = function (isUploaded, index) {
         if (isUploaded) {
-            var toDelete = confirm("Are you sure you want to delete " + this.quotes[index].name + "?");
+            var toDelete = confirm("Are you sure you want to delete this quote?");
             if (toDelete) {
                 this.quotes.splice(index, 1);
             }
