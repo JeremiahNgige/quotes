@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 **2).Vote a quote** <br>
     In the card hosting the quote there are two buttons ,one with a thumps up to upvote and another one with a thumbs down to down vote. Click on either for the respective voting and the number of votes will increase per click<br>
-    
+
 **3).Delete Quote** <br>
     Press the button on the respective quote that says quote details.A delete quote button will drop down along other quote details.<br>   
 
@@ -39,3 +39,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## License
+
+licensed under the [MIT license](LICENSE).
