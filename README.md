@@ -13,8 +13,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     In the card hosting the quote there are two buttons ,one with a thumps up to upvote and another one with a thumbs down to down vote. Click on either for the respective voting and the number of votes will increase per click<br>
 
 **3).Delete Quote** <br>
-    Press the button on the respective quote that says quote details.A delete quote button will drop down along other quote details.<br>   
+    Press the button on the respective quote that says quote details.A delete quote button will drop down along other quote details.
 
+## Installation
+
+To intall the web app git clone the project as shown bellow <br>
+     git clone <https://github.com/JeremiahNgige/quotes.git>
 
 ## Development server
 
